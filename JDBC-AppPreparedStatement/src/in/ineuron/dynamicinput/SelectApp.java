@@ -27,7 +27,7 @@ public class SelectApp {
 		try {
 			//getting connection with from the JDBCUtil package 
 			connection = JDBCUtil.getJDBCConnection();
-			if (connection != null)
+			if (connection!= null)
 			{
 				//getting data into prepared statement
 				pstmt = connection.prepareStatement(sqlSelectQuery);
