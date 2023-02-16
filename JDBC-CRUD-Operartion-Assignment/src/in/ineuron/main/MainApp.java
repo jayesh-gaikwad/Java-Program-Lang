@@ -49,9 +49,9 @@ public class MainApp {
                 		choice=scanner.nextInt();
                 		scanner.close();
             	}
-        	
-        	}        
-
+        		
+        }        
+	
 }         
 	
 

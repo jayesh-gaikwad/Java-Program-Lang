@@ -11,11 +11,12 @@ import in.ineuron.util.JdbcUtil;
 
 public class InsertApp {
 		
+	Scanner scanner = null;
 	public void InsertOpertaion() {
 		
 		Connection connection = null;
 		PreparedStatement pstmt = null;
-		Scanner scanner = null;
+		
 
 		try {
 			connection = JdbcUtil.getJdbcConnection();
@@ -78,7 +79,6 @@ public class InsertApp {
 			}
 		}
 	}
-
 }
 
 
