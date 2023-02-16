@@ -23,7 +23,7 @@ public class JdbcUtil {
 	
 	public static Connection getJdbcConnection() throws SQLException,IOException{
 		
-		String fileLoc="C:\\Programming lang\\Full-Stack-Java-Developer\\JDBC_CRUD_APP\\src\\in\\ineuron\\properties\\application.properties";
+		String fileLoc="C:\\Git_Repo\\JDBC_CRUD_APP\\src\\in\\ineuron\\properties\\application.properties";
 		FileInputStream fis=new FileInputStream(fileLoc);
 		Properties properties=new Properties();
 		properties.load(fis);
